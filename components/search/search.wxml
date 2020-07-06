@@ -1,0 +1,4 @@
+<!--components/search/search.wxml-->
+<view class="page__bd">
+  <mp-search bindselectresult="selectResult" search="{{search}}"></mp-search>
+</view>

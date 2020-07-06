@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/sort/sort",
+    "pages/shopMall/shopMall",
+    "pages/collect/collect",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "香哈菜谱",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/home-active.png"
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "text": "分类",
+        "iconPath": "icon/sort.png",
+        "selectedIconPath": "icon/sort-active.png"
+      },
+      {
+        "pagePath": "pages/shopMall/shopMall",
+        "text": "商城",
+        "iconPath": "icon/shopMall.png",
+        "selectedIconPath": "icon/shopMall-active.png"
+      },
+      {
+        "pagePath": "pages/collect/collect",
+        "text": "收藏",
+        "iconPath": "icon/collect.png",
+        "selectedIconPath": "icon/collect-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/mine.png",
+        "selectedIconPath": "icon/mine-active.png"
+      }
+    ],
+    "color": "#bfbfbf",
+    "selectedColor": "#515151"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

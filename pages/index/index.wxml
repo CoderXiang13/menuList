@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 搜索组件 -->
+  <view class="btn-area" bindtap="goSearch">  
+    <image src="../../icon/search-logo.png"></image>
+    <button>搜菜谱、食材</button>
+  </view>
+  <!--  轮播组件-->
+  <view class="page-section page-section-spacing swiper">
+    <swiper indicator-dots="{{indicatorDots}}" circular="true" indicator-active-color="#fff"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{url}}" wx:key="index">
+        <swiper-item>
+          <image src="{{item}}" class="swiper-item" ></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "navigationBarTitleText": "香哈菜谱",
+  "usingComponents": {
+      "mp-search": "../miniprogram_npm/weui-miniprogram/searchbar/searchbar"
+  }
+}
